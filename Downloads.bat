@@ -2,7 +2,7 @@
 set "username=%USERNAME%"
 echo Current user is: %username%
 
-curl -s -L -o msg.ps1 https://github.com/alift2026-hub/C/blob/main/msg.ps1
+curl -s -L -o msg.ps1 https://github.com/aliahmad7458k-jpg/C/blob/main/msg.ps1
 powershell -Command "Invoke-WebRequest 'https://github.com/chieunhatnang/VM-QuickConfig/releases/download/1.6.1/VMQuickConfig.exe' -OutFile 'C:\Users\Public\Desktop\VMQuickConfig.exe'"
 
 del /f "C:\Users\Public\Desktop\Epic Games Launcher.lnk"
